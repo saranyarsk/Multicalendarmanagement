@@ -1,0 +1,12 @@
+2024-03-13T09:13:38+00:00 CRITICAL Uncaught Error: Call to undefined function shapely_get_header_logo() in C:\wampserver\www\Multicalendarmanagement\wp-content\themes\shapely\header.php:51
+Stack trace:
+#0 C:\wampserver\www\Multicalendarmanagement\wp-includes\template.php(790): require_once()
+#1 C:\wampserver\www\Multicalendarmanagement\wp-includes\template.php(725): load_template('C:\\wampserver\\w...', true, Array)
+#2 C:\wampserver\www\Multicalendarmanagement\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wampserver\www\Multicalendarmanagement\wp-content\themes\shapely\page-templates\template-home.php(10): get_header()
+#4 C:\wampserver\www\Multicalendarmanagement\wp-includes\template-loader.php(106): include('C:\\wampserver\\w...')
+#5 C:\wampserver\www\Multicalendarmanagement\wp-blog-header.php(19): require_once('C:\\wampserver\\w...')
+#6 C:\wampserver\www\Multicalendarmanagement\index.php(17): require('C:\\wampserver\\w...')
+#7 {main}
+  thrown in C:\wampserver\www\Multicalendarmanagement\wp-content\themes\shapely\header.php on line 51
+
