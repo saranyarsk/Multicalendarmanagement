@@ -22,14 +22,14 @@
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'Multicalendarmanagement' );
 
-/** Database username */
-define( 'DB_USER', 'root' );
+/** MySQL database username */
+define('DB_USER', 'root');
 
-/** Database password */
-define( 'DB_PASSWORD', '' );
+/** MySQL database password */
+define('DB_PASSWORD', 'gF^GFtn1f7UW');
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'dev.agilecyber.com' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
